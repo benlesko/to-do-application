@@ -1,3 +1,81 @@
-h1 { 
-    color: purple;
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #F6F6F6;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #CCC;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+  }
+  
+  .column {
+    width: 50%;
+  }
+
+  h2 {
+    color: #666;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  form {
+    margin-bottom: 30px;    
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    
+  }
+  
+  li {
+    color: #333;
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid #EEE;
+    overflow-wrap: break-word;
+  }
+
+  li .remove-button {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+  
+  .todo {
+    background-color: lightcoral;
+  }
+
+  .completed {
+    color: gray;
+    background-color: rgb(87, 167, 87);
+    text-decoration: line-through;
   }
